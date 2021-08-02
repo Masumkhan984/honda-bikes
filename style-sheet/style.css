@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* for all */
+button{
+    background-color: #E76F51;
+    color:white;
+    border: none;
+}
+button:hover{
+    color: black;
+    background-color: blanchedalmond;
+    border: 2px solid #E76F51;
+}
+
+/* Honda Section */
+header{
+    background-color: #264653;
+}
+/* Feature Section */
+.feature-p{
+    color: #E76F51;
+}
+.single-image img{
+    width: auto;
+    filter:grayscale(100%)
+}
+.single-image img:hover{
+    width: 7000px;
+    filter:grayscale(0%)
+}
+
+/* News Section */
+.card-button:hover{
+    color: black;
+    background-color: blanchedalmond;
+    border: 2px solid #E76F51;
+}
+.single-icon{
+    width: 25px;
+}
